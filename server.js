@@ -6,7 +6,7 @@ const crypto = require('crypto');
 const app = express();
 const PORT = process.env.PORT || 3000;
 const ROOT_DIR = __dirname;
-const HTML_FILE = path.join(ROOT_DIR, 'kalleshwara-ambulance-website.html');
+const HTML_FILE = path.join(ROOT_DIR, 'index.html');
 const DATA_DIR = path.join(ROOT_DIR, 'data');
 const LEADS_FILE = path.join(DATA_DIR, 'leads.json');
 
